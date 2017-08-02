@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表格选择</title>
+	<link rel="stylesheet" href="base.css">
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="choose.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="btn">
+			<input type="button" value="学会了！">
+			<input type="button" value="还想学...">
+		</div>
+		<div class="tb">
+			<table>
+				<thead>
+					<tr>
+						<th><input type="checkbox" id="getAll"></th>
+						<th>学习内容</th>
+						<th>授课老师</th>
+						<th>已学会</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>HTML</td>
+						<td>大娃</td>
+						<td><a href="javascript:void(0)">YES</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>CSS</td>
+						<td>二娃</td>
+						<td><a href="javascript:void(0)">YES</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>JavaScript</td>
+						<td>三娃</td>
+						<td><a href="javascript:void(0)">YES</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>jQuery</td>
+						<td>四娃</td>
+						<td><a href="javascript:void(0)">YES</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="mask"></div>
+	<div class="addData">
+		<div class="addData-title">
+			<h3>添加数据</h3>
+			<span>x</span>
+		</div>
+		<div class="addData-content">
+			<div class="addData-content-name">
+				<span>学习内容 :</span>
+				<input type="text" placeholder="请输入内容">
+			</div>
+			<div class="addData-content-teacher">
+				<span>授课老师 :</span>
+				<input type="text" placeholder="？？？">
+			</div>
+		</div>
+		<div class="addData-btn">
+			<input type="button" value="添加">
+		</div>
+	</div>
+</body>
+</html>

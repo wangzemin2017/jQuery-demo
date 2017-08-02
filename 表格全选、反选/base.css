@@ -1,0 +1,112 @@
+/*主要样式*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*table样式start*/
+.container{
+	width: 420px;
+	margin: 120px auto;
+}
+.tb table{
+	width: 420px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table thead th,
+table tbody td{
+	border: 1px solid #ccc;
+	background-color: #0099cc;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+table tbody td{
+	background-color: #f0f0f0;
+	color: #000;
+	font-size: 14px;
+}
+tbody td a{
+	text-decoration: none;
+}
+table tr:hover td{
+	background-color: #fcfcfc;
+	cursor: pointer;
+}
+/*table样式end*/
+
+/*mask样式start*/
+.mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	display: none;
+}
+/*mask样式end*/
+
+/*addData样式start*/
+.addData{
+	width: 420px;
+	height: 240px;
+	position: fixed;
+	top: 110px;
+	left: 50%;
+	margin-left: -210px;
+	background-color: #fff;
+	padding-bottom: 15px;
+	display: none;
+}
+.addData-title{
+	height: 36px;
+	padding: 0 15px;
+	background-color: #eee;
+	margin-bottom: 15px;
+}
+.addData-title h3{
+	font-size: 16px;
+	line-height: 36px;
+	font-weight: 600;
+	color: #555;
+}
+.addData-title span{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	top: 3px;
+	right: 0;
+	cursor: pointer;
+}
+.addData-content-name,
+.addData-content-teacher{
+	height: 50px;
+	margin-bottom: 22px;
+	padding-left: 20px;
+}
+.addData-content-name span,
+addData-content-teacher span{
+	font-size: 16px;
+	line-height: 36px;
+}
+.addData-content-name input,
+.addData-content-teacher input{
+	width: 290px;
+	height: 32px;
+}
+.addData-btn{
+	text-align: center;
+}
+.addData-btn input{
+	width: 150px;
+	height: 30px;
+}
+/*addData样式end*/
